@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Рудасёв](https://up.htmlacademy.ru/htmlcss/34/user/2130199).
-* Наставник: [Сергей Артёмов].(htmlacademy.ru/profile/firefoxic""htmlacademy.ru/profile/firefoxic).
+* Наставник: [Сергей Артёмов](htmlacademy.ru/profile/firefoxic).
 
 ---
 
