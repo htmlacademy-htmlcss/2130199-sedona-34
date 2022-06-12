@@ -9,12 +9,10 @@
 <body>
   <header class="main-header">
     <nav class="navigation">
+      <a class="navigation-logo" href="#" aria-current="page"><img class="small-logo" src="#" alt="Логотип сайта Седона"></a>
       <ul class="navigation-list">
-        <li class="navigation-item">
-          <img class="small-logo" src="#" alt="Логотип сайта Седона">
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Главная</a>
+       <li class="navigation-item">
+          <a class="navigation-link" href="#" aria-current="page">Главная</a>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">О Седоне</a>
@@ -52,58 +50,48 @@
       <h2 class="visually-hidden">Причины для посещения Седоны</h2>
       <b>Седона — небольшой городок в Аризоне, <br> заслуживающий большего!</b>
       <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-      <ul class="reasons-list">
+      <ol class="reasons-list">
         <li class="reasons-item">
           <h3 class="reasons-title">Настоящий городок</h3>
-          <p class="reasons-number">— №1 —</p>
           <p class="reasons-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-        </li>
-        <li>
           <div>
             <img class="main-background-city" src="#" alt="Город">
           </div>
+          <ul>
+            <li class="reasons-item">
+              <h3 class="reasons-title">Жильё</h3>
+              <p class="reasons-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            </li>
+            <li class="reasons-item">
+              <h3 class="reasons-title">Еда</h3>
+              <p class="reasons-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="reasons-item">
+              <h3 class="reasons-title">Сувениры</h3>
+              <p class="reasons-description">Не только китайского, но и настоящего местного производства!</p>
+            </li>
+          </ul>
         </li>
         <li class="reasons-item">
-          <img class="housing" src="#" alt="Логотип дома">
-          <h3 class="reasons-title">Жильё</h3>
-          <p class="reasons-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-        </li>
-        <li class="reasons-item">
-          <img class="food" src="#" alt="Логотип еды">
-          <h3 class="reasons-title">Еда</h3>
-          <p class="reasons-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-        </li>
-        <li class="reasons-item">
-          <img class="gifts" src="#" alt="Логотип подарка">
-          <h3 class="reasons-title">Сувениры</h3>
-          <p class="reasons-description">Не только китайского, но и настоящего местного производства!</p>
-        </li>
-        <li>
+          <h3 class="reasons-title">Там есть мост дьявола</h3>
+          <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           <div>
             <img class="main-background-bridge" src="#" alt="Мост дьявола">
           </div>
         </li>
         <li class="reasons-item">
-          <h3 class="reasons-title">Там есть мост дьявола</h3>
-          <p class="reasons-number">— №2 —</p>
-          <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-        </li>
-        <li class="reasons-item">
           <h3 class="reasons-title">Небольшая площадь</h3>
-          <p class="reasons-number">— №3 —</p>
           <p class="reasons-description">Все достопримечательности находятся очень близко</p>
         </li>
         <li class="reasons-item">
           <h3 class="reasons-title">Красивая дорога</h3>
-          <p class="reasons-number">— №4 —</p>
           <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
         <li class="reasons-item">
           <h3 class="reasons-title">Мало туристов</h3>
-          <p class="reasons-number">— №5 —</p>
           <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p>
         </li>
-      </ul>
+      </ol>
     </section>
     <section class="booking">
       <h2 class="visually-hidden">Поиск гостиницы</h2>
@@ -126,7 +114,7 @@
     </section>
   </main>
     <footer class="page-footer">
-    <section class="footer-social">
+    <div class="footer-social">
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="#">
@@ -144,13 +132,13 @@
           </a>
         </li>
       </ul>
-    </section>
-    <section class="footer-contacts">
+    </div>
+    <sdiv class="footer-contacts">
       <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-    </section>
-    <section class="footer-links">
+    </div>
+    <div class="footer-links">
       <a class="footer-links-htmlacademy" href="https://htmlacademy.ru">htmlacademy</a>
-    </section>
+    </div>
   </footer>
 
 
