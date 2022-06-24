@@ -19,3 +19,87 @@ body {
   font-size: 18px;
   line-height: 21px;
 }
+
+.main-header {
+  background: #ffffff;
+  color: #000000;
+}
+
+.navigation-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.index-background {
+  background-image: url("images/welcome.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.reasons b {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons > p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.reasons-item > div > .reasons-title {
+  background: #82b3d3;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.reasons-item > div {
+  background: #82b3d3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.reasons-item .reasons-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.reasons-item .reasons-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+
+.reasons-item:nth-child(1) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.reasons-item:nth-child(3) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.reasons-item:nth-child(5) {
+  background: rgba(131, 179, 211, 0.12);
+}
