@@ -22,7 +22,8 @@ body {
 }
 
 .visually-hidden {
-	display: none;
+	position: fixed;
+	transform: scale(0);
 }
 
 .main-header {
@@ -75,7 +76,7 @@ body {
 	text-align: center;
 }
 
-.reasons-item > div > .reasons-title {
+.reasons-title {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
@@ -84,7 +85,7 @@ body {
 	color: #ffffff;
 }
 
-.reasons-item > div > .reasons-description {
+.reasons-description {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
@@ -138,7 +139,7 @@ body {
 	background: #82b3d3;
 }
 
-.reasons-item-without-photo {
+.reasons-sublist {
 	background: #ffffff;
 }
 
@@ -218,18 +219,19 @@ body {
 	text-transform: uppercase;
 }
 
-.footer-social-item:nth-child(1) {
+.social-link {
 	background: #83b3d3;
+}
+
+.social-link-icon-vk {
 	background-image: url("../images/vklogo.svg");
 }
 
-.footer-social-item:nth-child(2) {
-	background: #83b3d3;
+.social-link-icon-tg {
 	background-image: url("../images/telegram-logo.svg");
 }
 
-.footer-social-item:nth-child(3) {
-	background: #83b3d3;
+.social-link-icon-youtube {
 	background-image: url("../images/youtube-logo.svg");
 }
 
