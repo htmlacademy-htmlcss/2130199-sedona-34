@@ -1,0 +1,40 @@
+{
+	"files.exclude": {
+		"*:Zone.Identifier": true,
+		"node_modules/": true
+	},
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.stylelint": true
+	},
+	"editor.detectIndentation": false,
+	"editor.guides.bracketPairs": true,
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+	"editor.renderWhitespace": "all",
+	"editor.wordWrap": "on",
+
+	"files.insertFinalNewline": true,
+	"files.autoSave": "onFocusChange",
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+
+	"html.format.endWithNewline": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.wrapLineLength": 0,
+
+	"stylelint.validate": [
+		"css",
+		"less",
+		"postcss",
+		"sass",
+		"scss"
+	],
+
+	"svg.preview.boundingBox": true,
+	"svg.preview.transparencyGrid": true,
+
+	"vscode-typograf.onlyInvisible": true,
+	"vscode-typograf.autoDetectLocale": false,
+	"vscode-typograf.locale": "ru",
+}
