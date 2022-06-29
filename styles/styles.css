@@ -14,6 +14,10 @@
 	font-display: swap;
 }
 
+/* .container {
+	margin: 0 auto;
+} */
+
 html {
 	height: 100%;
 }
@@ -43,6 +47,23 @@ body {
 	color: #000000;
 }
 
+.navigation {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.navigation-list {
+	margin: 0;
+	padding: 0;
+	width: 490px;
+}
+
+.navigation-user {
+	max-width: 300px;
+	margin-left: auto;
+}
+
 .navigation-link {
 	font-style: normal;
 	font-weight: 700;
@@ -63,6 +84,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+.page-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 .main-index {
 	background-image: url("../images/welcome.svg");
 	background-repeat: no-repeat;
@@ -71,6 +97,16 @@ body {
 .catalog-filter {
 	background-image: url("../images/background-catalog.jpg");
 	background-repeat: no-repeat;
+}
+
+.reasons-list {
+	margin: 0;
+	padding: 0;
+}
+
+.reasons-item-city {
+	display: flex;
+	justify-content: space-between;
 }
 
 .reasons b {
