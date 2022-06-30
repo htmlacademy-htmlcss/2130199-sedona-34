@@ -102,11 +102,147 @@ body {
 .reasons-list {
 	margin: 0;
 	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
 .reasons-item-city {
 	display: flex;
 	justify-content: space-between;
+	width: 400px;
+	flex-direction: column;
+}
+
+.booking {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 0 40px;
+	width: 1200px;
+	text-align: center;
+}
+
+.booking-title {
+	display: flex;
+	justify-content: center;
+	width: 297px;
+	margin: auto;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.booking-description {
+	display: flex;
+	justify-content: center;
+	width: 592px;
+	margin: auto;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	color: #333333;
+}
+
+.reasons-sublist-container {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.reasons-item-bridge-container {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.button-all {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	width: 574px;
+	margin: auto;
+}
+
+.mailing {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 0 40px;
+	width: 1200px;
+	text-align: center;
+}
+
+.mailing-title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	width: 404px;
+	margin: auto;
+}
+
+.mailing-description {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	width: 475px;
+	margin: auto;
+}
+
+.mailing-form {
+	display: flex;
+	justify-content: center;
+	width: 800px;
+	margin: auto;
+}
+
+.page-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin: auto;
+}
+
+.footer-social {
+	display: flex;
+	justify-content: center;
+	width: 212px;
+	margin-left: auto;
+}
+
+.footer-social-list {
+	display: flex;
+	justify-content: center;
+	width: 142px;
+	margin: auto;
+}
+
+.footer-contacts {
+	display: flex;
+	justify-content: center;
+	width: 331px;
+	margin: auto;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: center;
+	width: 115px;
+	margin: auto;
 }
 
 .reasons b {
@@ -142,6 +278,10 @@ body {
 }
 
 .reasons-item-city .reasons-title {
+	display: flex;
+	justify-content: center;
+	width: 230px;
+	margin: 0 85px;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
@@ -151,6 +291,10 @@ body {
 }
 
 .reasons-item-city .reasons-description {
+	display: flex;
+	justify-content: center;
+	width: 230px;
+	margin: 0 85px;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
@@ -159,6 +303,10 @@ body {
 }
 
 .reasons-item-bridge .reasons-title {
+	display: flex;
+	justify-content: center;
+	width: 230px;
+	margin: 0 85px;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
@@ -167,7 +315,17 @@ body {
 	color: #000000;
 }
 
+.city-container {
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+}
+
 .reasons-item-bridge .reasons-description {
+	display: flex;
+	justify-content: center;
+	width: 230px;
+	margin: 0 85px;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 21px;
@@ -177,6 +335,10 @@ body {
 
 .reasons-item-bridge {
 	background: rgba(131, 179, 211, 0.2);
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	flex-direction: column;
 }
 
 .reasons-item-bridge:nth-child(2n+1) {
@@ -195,28 +357,6 @@ body {
 	background: rgba(131, 179, 211, 0.12);
 }
 
-.booking-title {
-	font-weight: 700;
-	font-size: 30px;
-	line-height: 36px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #000000;
-}
-
-.booking-description {
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 26px;
-	text-align: center;
-	color: #333333;
-}
-
-.mailing {
-	background-image: url("../images/background.jpg");
-	background-repeat: no-repeat;
-}
-
 .button.button-all {
 	font-weight: 700;
 	font-size: 20px;
@@ -229,22 +369,6 @@ body {
 	background: #756157;
 	border-radius: 4px;
 	text-decoration: none;
-}
-
-.mailing-title {
-	font-weight: 700;
-	font-size: 30px;
-	line-height: 36px;
-	text-transform: uppercase;
-	color: #ffffff;
-}
-
-.mailing-description {
-	font-weight: 400;
-	font-size: 22px;
-	line-height: 26px;
-	text-align: center;
-	color: #ffffff;
 }
 
 .field {
