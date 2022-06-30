@@ -45,7 +45,8 @@
 	</nav>
 </header>
 
-<main class="main-inner">
+<main class="main-inner main-container">
+	<div class="page-container">
 	<header class="inner-header">
 		<h1 class="inner-header-title">Гостиницы Седоны</h1>
 		<ul class="breadcrumbs">
@@ -101,10 +102,12 @@
 					</li>
 				</ul>
 			</fieldset>
-
+			<div class="catalog-filter-buttons">
 			<button class="button" type="submit">Применить</button>
 			<button class="button" type="reset">Сбросить</button>
+		</div>
 		</form>
+		<div class="catalog-hotels-result-container">
 		<span class="catalog-hotels-result">Найдено гостиниц: 38</span>
 		<select class="select-control" aria-label="Сортировка">
 			<option value="cheap">Сначала дешёвые</option>
@@ -123,6 +126,7 @@
 			<img class="catalog-hotels-result-filter" src="images/list-view.svg" width="38" height="38" alt="Список">
 			<span class="visually-hidden">Показать список</span>
 		</a>
+	</div>
 		<ul class="product-list">
 			<li class="product-card">
 				<a class="product-card-link" href="#">
@@ -181,6 +185,7 @@
 				<div class="product-rating">Рейтинг: 5,0</div>
 			</li>
 		</ul>
+		<div class="pagination-container">
 		<ul class="pagination">
 			<li class="pagination-item">
 				<a class="pagination-link pagination-current pagination-disabled">1</a>
@@ -207,7 +212,9 @@
 			<option value="four">4</option>
 			<option value="five">5</option>
 		</select>
+	</div>
 	</section>
+</div>
 </main>
 
 <footer class="page-footer">
