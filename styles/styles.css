@@ -16,6 +16,13 @@
 
 .container {
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.main-container {
+	flex-grow: 1;
 }
 
 html {
@@ -38,8 +45,10 @@ body {
 	transform: scale(0);
 }
 
-.main-container {
-	flex-grow: 1;
+div {
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
 }
 
 .main-header {
@@ -105,10 +114,21 @@ body {
 }
 
 .reasons-list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.reasons-item-bridge {
+	flex-basis: 30%;
+	flex-grow: 1;
+	padding: 0.5em;
+	background: rgba(131, 179, 211, 0.2);
 	display: flex;
 	justify-content: space-between;
+	width: 400px;
 	flex-direction: column;
 }
 
@@ -120,8 +140,6 @@ body {
 }
 
 .booking {
-	display: flex;
-	justify-content: space-between;
 	flex-direction: column;
 	padding: 0 40px;
 	width: 1200px;
@@ -129,8 +147,6 @@ body {
 }
 
 .booking-title {
-	display: flex;
-	justify-content: center;
 	width: 297px;
 	margin: auto;
 	font-weight: 700;
@@ -153,16 +169,10 @@ body {
 	color: #333333;
 }
 
-.reasons-sublist-container {
+ul {
 	display: flex;
-	text-align: center;
 	justify-content: center;
-}
-
-.reasons-item-bridge-container {
-	display: flex;
-	text-align: center;
-	justify-content: center;
+	padding: 0;
 }
 
 .button-all {
@@ -200,7 +210,6 @@ body {
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 26px;
-	text-align: center;
 	color: #ffffff;
 	display: flex;
 	justify-content: center;
@@ -251,6 +260,8 @@ body {
 }
 
 .reasons b {
+	display: flex;
+	flex-direction: column;
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 36px;
@@ -287,11 +298,6 @@ body {
 	justify-content: center;
 	width: 230px;
 	margin: 0 85px;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	text-transform: uppercase;
 	color: #000000;
 }
 
@@ -300,23 +306,13 @@ body {
 	justify-content: center;
 	width: 230px;
 	margin: 0 85px;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 21px;
-	text-align: center;
 	color: #333333;
 }
 
 .reasons-item-bridge .reasons-title {
 	display: flex;
 	justify-content: center;
-	width: 230px;
 	margin: 0 85px;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	text-transform: uppercase;
 	color: #000000;
 }
 
@@ -329,7 +325,6 @@ body {
 .reasons-item-bridge .reasons-description {
 	display: flex;
 	justify-content: center;
-	width: 230px;
 	margin: 0 85px;
 	font-weight: 400;
 	font-size: 18px;
@@ -338,13 +333,6 @@ body {
 	color: #333333;
 }
 
-.reasons-item-bridge {
-	background: rgba(131, 179, 211, 0.2);
-	display: flex;
-	justify-content: space-between;
-	width: 400px;
-	flex-direction: column;
-}
 
 .reasons-item-bridge:nth-child(2n+1) {
 	background: rgba(131, 179, 211, 0.12);
@@ -368,7 +356,6 @@ body {
 	line-height: 36px;
 	display: flex;
 	align-items: center;
-	text-align: center;
 	text-transform: uppercase;
 	color: #ffffff;
 	background: #756157;
@@ -463,13 +450,10 @@ body {
 .button[type="submit"] {
 	background: #82b3d3;
 	border-radius: 4px;
-	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
 	display: flex;
 	align-items: center;
-	text-align: center;
-	text-transform: uppercase;
 	color: #ffffff;
 	border: solid #82b3d3;
 }
@@ -611,6 +595,7 @@ body {
 
 .catalog-hotels-result-container {
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	margin-left: 72px;
 }
@@ -620,7 +605,27 @@ body {
 	align-items: center;
 }
 
+.product-card {
+	width: 340px;
+	display: flex;
+	flex-direction: column;
+	margin: 18px;
+}
+
+.pagination-item {
+	margin: 0 auto;
+}
+
 .pagination-container {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+}
+
+.catalog-filter-list {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: flex-start;
+	list-style-type: none;
 }
